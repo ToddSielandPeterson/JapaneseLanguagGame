@@ -88,7 +88,7 @@ Written by `ProgressStore` as JSON:
 }
 ```
 
-Path: `$JAPANESE_LANGUAGE_GAME_HOME/progress.json` if that environment variable is set, otherwise `$XDG_CONFIG_HOME/JapaneseLanguageGame/progress.json`, otherwise `~/.config/JapaneseLanguageGame/progress.json`.
+Desktop path: `$JAPANESE_LANGUAGE_GAME_HOME/progress.json` if that environment variable is set, otherwise `$XDG_CONFIG_HOME/JapaneseLanguageGame/progress.json`, otherwise `~/.config/JapaneseLanguageGame/progress.json`. The web app stores the same document in `localStorage` at `JapaneseLanguageGame.progress`. Both paths use `ProgressCodec`, so a bad payload falls back the same way.
 
 The in-progress sentence, hint, and deck order are not saved. Relaunching starts a fresh shuffle at the saved level with the saved score. Unknown `jlpt` values (including `N2`) load as N5. Negative numbers load as 0.
 

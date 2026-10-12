@@ -8,7 +8,7 @@ The selector already has a disabled N2. Turning it on means:
 
 - Add exercises with `"jlpt": "N2"` (and later N1, which would be a new `JlptLevel`)
 - Mark the level `playable`
-- Extend `ProgressStore`'s allowed level set
+- Extend the allowed level set in `ProgressCodec`
 - Keep the same tile, answer, and distractor shape so the reducer does not grow a special case
 
 Likely N2 patterns, not yet written: ばかり, わけではない, ようにする, ことにする, passive/causative combinations, and tighter は/が contrasts. They should be authored the same way as `docs/04-exercise-format.md`, not as a new game mode.
@@ -34,7 +34,7 @@ There is no in-app editor. Editing `exercises.json` and running the tests is the
 
 ## Mobile
 
-This module is Compose Desktop on the JVM so it opens in IntelliJ and runs with `./gradlew run`. A later Compose Multiplatform target (Android, and maybe iOS) can reuse `domain` and `data` if the progress store grows an expect/actual implementation. The UI would need a real phone layout: the sentence bar and the pool already wrap, but hit targets and the reset dialog should be rechecked on a narrow screen. Do not start that by splitting this repo into a premature multi-module tree.
+The shared UI already runs in the browser through the Kotlin/Wasm target (`wasmJs`). Android and iOS are not targets yet. They can reuse `domain`, the exercise loader, and the `ProgressStore` interface; each would add its own `actual` store. The sentence bar and the pool already wrap. Hit targets and the reset dialog should be rechecked on a narrow screen before calling a phone build done. Keep this as one Gradle module.
 
 ## Sync and accounts
 
@@ -44,4 +44,4 @@ Out of scope. Progress is one local JSON file. If sync ever exists, that file's 
 
 - Duplicate identical tiles match by surface, so two `を` or two `に` do not fail a correct-looking sentence.
 - Enter during the short wrong-answer flash does not skip to the next item.
-- Progress is a JSON file under the config directory, not `localStorage`.
+- Progress on the desktop is a JSON file under the config directory. The web build stores that same JSON in `localStorage`.

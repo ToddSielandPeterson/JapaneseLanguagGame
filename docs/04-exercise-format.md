@@ -1,6 +1,6 @@
 # Exercise format
 
-The catalog is `src/main/resources/exercises.json`. `ExerciseRepository` parses it at startup and refuses to boot if an id is duplicated, an answer points at an unknown tile, or a distractor repeats a correct surface.
+The catalog is `src/commonMain/composeResources/files/exercises.json`. `ExerciseRepository` parses it at startup and refuses to boot if an id is duplicated, an answer points at an unknown tile, or a distractor repeats a correct surface.
 
 The file is the port of the HTML `EXERCISES` array plus `EXERCISE_DISTRACTORS`, after the HTML's own `n5-03` fix (へ is a real tile, and both destination particles are accepted). Do not hand-edit a thinner subset. Add items; do not drop the 34.
 

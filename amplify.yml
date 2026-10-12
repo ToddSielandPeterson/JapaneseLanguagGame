@@ -1,0 +1,64 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - |
+          set -eu
+          install_corretto() {
+            if command -v dnf >/dev/null 2>&1; then
+              dnf install -y java-21-amazon-corretto-devel
+            elif command -v yum >/dev/null 2>&1; then
+              yum install -y java-21-amazon-corretto-devel
+            else
+              return 1
+            fi
+          }
+          install_sdkman() {
+            curl -fsSL "https://get.sdkman.io" | bash
+            # shellcheck disable=SC1091
+            source "$HOME/.sdkman/bin/sdkman-init.sh"
+            sdk install java 21.0.8-tem < /dev/null
+          }
+          javac_major() {
+            javac -version 2>&1 | sed -n 's/.* \([0-9][0-9]*\)\..*/\1/p' | head -n 1
+          }
+          if ! command -v javac >/dev/null 2>&1; then
+            install_corretto || install_sdkman
+          fi
+          major="$(javac_major || true)"
+          if [ "$major" != "17" ] && [ "$major" != "21" ]; then
+            install_corretto || install_sdkman
+          fi
+          java -version
+          javac -version
+    build:
+      commands:
+        - |
+          set -eu
+          if [ -z "${JAVA_HOME:-}" ] || [ ! -x "${JAVA_HOME}/bin/javac" ]; then
+            if [ -d /usr/lib/jvm/java-21-amazon-corretto.x86_64 ]; then
+              export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto.x86_64
+            elif [ -d /usr/lib/jvm/java-21-amazon-corretto ]; then
+              export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto
+            elif [ -d /usr/lib/jvm/java-21-amazon-corretto.aarch64 ]; then
+              export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto.aarch64
+            else
+              javac_bin="$(readlink -f "$(command -v javac)")"
+              export JAVA_HOME="$(dirname "$(dirname "$javac_bin")")"
+            fi
+          fi
+          export PATH="$JAVA_HOME/bin:$PATH"
+          export GRADLE_USER_HOME="${CODEBUILD_SRC_DIR:-$PWD}/.gradle-home"
+          mkdir -p "$GRADLE_USER_HOME"
+          chmod +x ./gradlew
+          java -version
+          ./gradlew wasmJsBrowserDistribution --no-daemon --stacktrace
+  artifacts:
+    baseDirectory: build/dist/wasmJs/productionExecutable
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - .gradle-home/**/*
+      - .gradle/**/*
