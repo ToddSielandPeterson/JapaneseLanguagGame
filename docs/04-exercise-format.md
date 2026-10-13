@@ -2,7 +2,7 @@
 
 The catalog is `src/commonMain/composeResources/files/exercises.json`. `ExerciseRepository` parses it at startup and refuses to boot if an id is duplicated, an answer points at an unknown tile, or a distractor repeats a correct surface.
 
-The file is the port of the HTML `EXERCISES` array plus `EXERCISE_DISTRACTORS`, after the HTML's own `n5-03` fix (へ is a real tile, and both destination particles are accepted). Do not hand-edit a thinner subset. Add items; do not drop the 34.
+The file is the port of the HTML `EXERCISES` array plus `EXERCISE_DISTRACTORS`, after the HTML's own `n5-03` fix (へ is a real tile, and both destination particles are accepted), plus later N5, N4, and N3 items. Do not hand-edit a thinner subset. Add items; do not drop the original 34.
 
 ## One item
 
@@ -68,7 +68,7 @@ Do not put へ in `distractors` for this item. A distractor fails the check; へ
 
 They are wrong on purpose: the other particle (は vs が, に vs で), a near-miss verb, or a noun that would change the sentence. Surfaces must not duplicate a correct tile, or the repository rejects the file. At most three are shown. Including one anywhere in the bar fails Check, even if the other tiles look right.
 
-The HTML also had a fallback list of particles for an exercise with no curated distractors. `FallbackParticles` in `Models.kt` keeps that list. None of the 34 items need it.
+The HTML also had a fallback list of particles for an exercise with no curated distractors. `FallbackParticles` in `Models.kt` keeps that list. None of the 120 items need it.
 
 ## Identical tiles
 
@@ -76,14 +76,14 @@ The HTML also had a fallback list of particles for an exercise with no curated d
 
 ## Adding an exercise
 
-1. Append an object to `exercises.json`. Use a new id (`n5-15`, `n4-12`, …).
-2. Give every kanji surface a reading.
+1. Append an object to `exercises.json`. Use the next free id (`n5-41`, `n4-41`, …). Set `jlpt` to `N5`, `N4`, or `N3` so the existing selector shows it. Set `level` to the difficulty already used for that band: `beginner`, `intermediate`, or `advanced`.
+2. Give every kanji surface a reading in kana.
 3. Give at least one answer whose ids all exist in `tiles`.
 4. Add distractors that are plausible mistakes and do not repeat a surface already in `tiles`.
-5. Run `./gradlew test`. `GameReducerTest.catalogHasTheFullPortedSet` currently expects 34 items and fixed counts per level. Update those counts in the same change if you add items. Do not lower them to "make the test pass" by deleting sentences.
+5. Run `./gradlew test`. `GameReducerTest.catalogHasTheFullPortedSet` currently expects 120 items and 40 per playable level. Update those counts in the same change if you add items. Do not lower them to "make the test pass" by deleting sentences.
 
 Kotlin objects are not a second catalog. JSON is the only authoring format so the sentences stay in one file a reviewer can diff.
 
 ## Deck order
 
-Within a level, items are shuffled at runtime. The order in the JSON file is the authoring order (n5-01 through n3-09) and the order a stable shuffler uses in tests. Do not rely on JSON order during play.
+Within a level, items are shuffled at runtime. The order in the JSON file is the authoring order (n5-01 through n3-40) and the order a stable shuffler uses in tests. Do not rely on JSON order during play. The existing JLPT selector filters by `jlpt`; there is no separate level filter.

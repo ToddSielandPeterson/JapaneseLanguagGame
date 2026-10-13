@@ -26,7 +26,7 @@ A correct answer scores `1 + min(streak, 5)` and then increments the streak. A m
 
 ## What shipped
 
-- All **34** exercises from the HTML game: 14 N5, 11 N4, 9 N3, each with curated distractors
+- **120** exercises: 40 N5, 40 N4, 40 N3, including the original 34 from the HTML game, each with curated distractors
 - JLPT selector for N5, N4, and N3. N2 is shown and disabled
 - Furigana on by default, distractors off by default
 - Click or drag tiles into the sentence bar; click or drag them back

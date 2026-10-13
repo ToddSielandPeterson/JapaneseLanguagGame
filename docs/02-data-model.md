@@ -98,6 +98,6 @@ The in-progress sentence, hint, and deck order are not saved. Relaunching starts
 
 - Distractors off: `exercise.tiles` only.
 - Distractors on: those tiles plus up to three distractors whose surface is not already used.
-- If every curated distractor collided with a real surface, up to two fallback particles are added from は が を に で へ と も の から まで, with ids `d_fb_<surface>`. The shipped 34 items all have usable curated distractors, so the fallback is a safety net.
+- If every curated distractor collided with a real surface, up to two fallback particles are added from は が を に で へ と も の から まで, with ids `d_fb_<surface>`. The shipped 120 items all have usable curated distractors, so the fallback is a safety net.
 
 The pool order is that list, shuffled, unless the shuffle equals an entire accepted answer (same ids, same length). In that case it retries up to eight times.

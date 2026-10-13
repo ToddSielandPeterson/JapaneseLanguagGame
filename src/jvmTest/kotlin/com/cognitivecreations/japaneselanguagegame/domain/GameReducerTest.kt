@@ -16,11 +16,24 @@ class GameReducerTest {
 
     @Test
     fun catalogHasTheFullPortedSet() {
-        assertEquals(34, catalog.exercises.size)
-        assertEquals(14, catalog.forLevel(JlptLevel.N5).size)
-        assertEquals(11, catalog.forLevel(JlptLevel.N4).size)
-        assertEquals(9, catalog.forLevel(JlptLevel.N3).size)
+        assertEquals(ExerciseCatalog.EXPECTED_COUNT, catalog.exercises.size)
+        assertEquals(120, catalog.exercises.size)
+        assertEquals(40, catalog.forLevel(JlptLevel.N5).size)
+        assertEquals(40, catalog.forLevel(JlptLevel.N4).size)
+        assertEquals(40, catalog.forLevel(JlptLevel.N3).size)
         assertEquals(0, catalog.forLevel(JlptLevel.N2).size)
+        assertEquals((1..40).map { "n5-%02d".format(it) }, catalog.forLevel(JlptLevel.N5).map { it.id })
+        assertEquals((1..40).map { "n4-%02d".format(it) }, catalog.forLevel(JlptLevel.N4).map { it.id })
+        assertEquals((1..40).map { "n3-%02d".format(it) }, catalog.forLevel(JlptLevel.N3).map { it.id })
+        catalog.exercises.forEach { exercise ->
+            val difficulty = when (exercise.jlpt) {
+                JlptLevel.N5 -> Difficulty.BEGINNER
+                JlptLevel.N4 -> Difficulty.INTERMEDIATE
+                JlptLevel.N3 -> Difficulty.ADVANCED
+                JlptLevel.N2 -> error("N2 is not in the catalog")
+            }
+            assertEquals(difficulty, exercise.difficulty, exercise.id)
+        }
         assertEquals("I eat sushi.", catalog.byId("n5-01")!!.english)
         assertEquals("I ended up staying until late because of work.", catalog.byId("n3-09")!!.english)
     }
@@ -30,7 +43,12 @@ class GameReducerTest {
         catalog.exercises.forEach { exercise ->
             (exercise.tiles + exercise.distractors).forEach { tile ->
                 if (tile.surface.any { it in Tile.KANJI }) {
-                    assertFalse(tile.reading.isNullOrBlank(), "${exercise.id} ${tile.surface} missing furigana")
+                    val reading = tile.reading
+                    assertFalse(reading.isNullOrBlank(), "${exercise.id} ${tile.surface} missing furigana")
+                    assertTrue(
+                        reading.all { it in '\u3040'..'\u309F' || it in '\u30A0'..'\u30FF' },
+                        "${exercise.id} ${tile.surface} reading is not kana: $reading",
+                    )
                 }
             }
             exercise.answers.forEach { answer ->
@@ -39,6 +57,20 @@ class GameReducerTest {
                 }
             }
             assertTrue(exercise.distractors.isNotEmpty(), "${exercise.id} has no distractors")
+        }
+    }
+
+    @Test
+    fun everyAnswerReassemblesFromItsTiles() {
+        catalog.exercises.forEach { exercise ->
+            assertTrue(exercise.answers.isNotEmpty(), exercise.id)
+            exercise.answers.forEach { answer ->
+                val sentence = answer.joinToString("") { id ->
+                    exercise.tiles.first { it.id == id }.surface
+                }
+                assertTrue(sentence.isNotEmpty(), exercise.id)
+                assertTrue(GameReducer.isCorrect(exercise, answer), "${exercise.id} $sentence")
+            }
         }
     }
 
@@ -158,14 +190,15 @@ class GameReducerTest {
     @Test
     fun nextWrapsTheQueue() {
         var state = GameReducer.start(catalog, PersistedProgress(jlpt = "N3"), StableShuffler)
-        repeat(8) {
+        val n3 = catalog.forLevel(JlptLevel.N3)
+        repeat(n3.size - 1) {
             state = GameReducer.reduce(state, GameEvent.Reveal, catalog, StableShuffler)
             state = GameReducer.reduce(state, GameEvent.Next, catalog, StableShuffler)
         }
-        assertEquals("n3-09", state.exerciseId)
+        assertEquals(n3.last().id, state.exerciseId)
         state = GameReducer.reduce(state, GameEvent.Reveal, catalog, StableShuffler)
         state = GameReducer.reduce(state, GameEvent.Next, catalog, StableShuffler)
-        assertEquals("n3-01", state.exerciseId)
+        assertEquals(n3.first().id, state.exerciseId)
         assertEquals(0, state.index)
     }
 

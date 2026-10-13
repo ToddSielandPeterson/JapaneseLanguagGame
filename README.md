@@ -1,6 +1,6 @@
 # JapaneseLanguageGame
 
-Sentence Builder (文を作ろう) is a drill for Japanese word order and particles. An English prompt is shown with scrambled tiles — content words and particles — and you arrange them into a grammatical sentence. It is a Kotlin Compose Multiplatform port of the self-contained HTML game, with the same 34 N5 / N4 / N3 exercises and the same distractors. The same screen runs on the desktop and in the browser (Kotlin/Wasm).
+Sentence Builder (文を作ろう) is a drill for Japanese word order and particles. An English prompt is shown with scrambled tiles — content words and particles — and you arrange them into a grammatical sentence. It is a Kotlin Compose Multiplatform port of the self-contained HTML game, with 120 N5 / N4 / N3 exercises (40 each), including the original 34, and the same distractor style. The same screen runs on the desktop and in the browser (Kotlin/Wasm).
 
 JLPT N5, N4, and N3 are playable. N2 is on the selector and disabled. Furigana defaults to on. Distractors default to off; turn them on when you want extra wrong tiles that must not be used. Score, streak, best streak, level, and the two toggles are stored locally. Nothing phones home.
 

@@ -15,7 +15,7 @@ Likely N2 patterns, not yet written: ばかり, わけではない, ようにす
 
 ## More sentences at N5–N3
 
-34 items loop quickly once they are familiar. The next content pass is more items in the same JSON file: honorific/humble pairs only if the tiles stay unambiguous, and more minimal pairs (に vs で, は vs が) at N5 before adding longer N3 clauses.
+The catalog is 120 items (40 N5, 40 N4, 40 N3), including the original 34. Further items still go in the same JSON file and the existing JLPT selector: honorific/humble pairs only if the tiles stay unambiguous, and more minimal pairs (に vs で, は vs が) at N5 before adding longer N3 clauses.
 
 ## Audio
 

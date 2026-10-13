@@ -924,6 +924,1778 @@
     ]
   },
   {
+    "id": "n5-15",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I read the newspaper every day.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "毎日",
+        "role": "time",
+        "reading": "まいにち"
+      },
+      {
+        "id": "t4",
+        "surface": "新聞",
+        "role": "object",
+        "reading": "しんぶん"
+      },
+      {
+        "id": "t5",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "読みます",
+        "role": "verb",
+        "reading": "よみます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "毎日 is the time. Object を, verb (ます) last.",
+    "notes": "私は毎日新聞を読みます. を marks what you read.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "書きます",
+        "role": "verb",
+        "reading": "かきます"
+      }
+    ]
+  },
+  {
+    "id": "n5-16",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "This is my bag.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "これ",
+        "role": "subject"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "私",
+        "role": "noun",
+        "reading": "わたし"
+      },
+      {
+        "id": "t4",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "かばん",
+        "role": "noun"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "X は Y です. の links owner and thing.",
+    "notes": "私のかばん — の between two nouns.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-17",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "The library is quiet.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "図書館",
+        "role": "place",
+        "reading": "としょかん"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "静か",
+        "role": "adj",
+        "reading": "しずか"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "Place は na-adjective です.",
+    "notes": "静かです — な-adjective plus です. は is the topic, not に.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "うるさい",
+        "role": "adj"
+      }
+    ]
+  },
+  {
+    "id": "n5-18",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I get up at seven.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "七時",
+        "role": "time",
+        "reading": "しちじ"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "起きます",
+        "role": "verb",
+        "reading": "おきます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "Clock time takes に. Verb last.",
+    "notes": "七時に起きます. に marks a specific time.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "寝ます",
+        "role": "verb",
+        "reading": "ねます"
+      }
+    ]
+  },
+  {
+    "id": "n5-19",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "There is a dog in the park.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "公園",
+        "role": "place",
+        "reading": "こうえん"
+      },
+      {
+        "id": "t2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "犬",
+        "role": "subject",
+        "reading": "いぬ"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "います",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "Place に, thing が, います for a living thing.",
+    "notes": "公園に犬がいます. あります would be for an object, not an animal.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-20",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "She goes home by bus.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼女",
+        "role": "topic",
+        "reading": "かのじょ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "バス",
+        "role": "means"
+      },
+      {
+        "id": "t4",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "帰ります",
+        "role": "verb",
+        "reading": "かえります"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "で marks the means. に would mark a destination.",
+    "notes": "バスで帰ります — vehicle で.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行きます",
+        "role": "verb",
+        "reading": "いきます"
+      }
+    ]
+  },
+  {
+    "id": "n5-21",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I write a letter to a friend.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "友達",
+        "role": "noun",
+        "reading": "ともだち"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "手紙",
+        "role": "object",
+        "reading": "てがみ"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "書きます",
+        "role": "verb",
+        "reading": "かきます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "Recipient に, object を, verb last.",
+    "notes": "友達に手紙を書きます. に is the person who receives it.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "から",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "読みます",
+        "role": "verb",
+        "reading": "よみます"
+      }
+    ]
+  },
+  {
+    "id": "n5-22",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "My father is a doctor.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "父",
+        "role": "topic",
+        "reading": "ちち"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "医者",
+        "role": "noun",
+        "reading": "いしゃ"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "X は Y です.",
+    "notes": "父は医者です. は presents the topic.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "います",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-23",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I don't eat meat.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "肉",
+        "role": "object",
+        "reading": "にく"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "食べません",
+        "role": "verb",
+        "reading": "たべません"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ます-negative is ません. Object still takes を.",
+    "notes": "肉を食べません.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "飲みません",
+        "role": "verb",
+        "reading": "のみません"
+      }
+    ]
+  },
+  {
+    "id": "n5-24",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "The bank is next to the station.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "銀行",
+        "role": "place",
+        "reading": "ぎんこう"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "駅",
+        "role": "place",
+        "reading": "えき"
+      },
+      {
+        "id": "t4",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "隣",
+        "role": "position",
+        "reading": "となり"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "X は Y の隣です.",
+    "notes": "駅の隣 — の between the reference point and 隣.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "中",
+        "role": "position",
+        "reading": "なか"
+      }
+    ]
+  },
+  {
+    "id": "n5-25",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "Please wait a moment.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "ちょっと",
+        "role": "adv"
+      },
+      {
+        "id": "t2",
+        "surface": "待って",
+        "role": "te",
+        "reading": "まって"
+      },
+      {
+        "id": "t3",
+        "surface": "ください",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    ],
+    "hint": "て-form + ください is a polite request.",
+    "notes": "ちょっと待ってください.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "見て",
+        "role": "te",
+        "reading": "みて"
+      }
+    ]
+  },
+  {
+    "id": "n5-26",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I watch a movie on Sunday.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "日曜日",
+        "role": "time",
+        "reading": "にちようび"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "映画",
+        "role": "object",
+        "reading": "えいが"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "見ます",
+        "role": "verb",
+        "reading": "みます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "A day of the week takes に. Object を.",
+    "notes": "日曜日に映画を見ます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "聞きます",
+        "role": "verb",
+        "reading": "ききます"
+      }
+    ]
+  },
+  {
+    "id": "n5-27",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "The water is cold.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "水",
+        "role": "topic",
+        "reading": "みず"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "冷たい",
+        "role": "adj",
+        "reading": "つめたい"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "冷たい is cold to the touch. 寒い is cold weather.",
+    "notes": "水は冷たいです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "寒い",
+        "role": "adj",
+        "reading": "さむい"
+      }
+    ]
+  },
+  {
+    "id": "n5-28",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "My house is in Osaka.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "noun",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "家",
+        "role": "topic",
+        "reading": "いえ"
+      },
+      {
+        "id": "t4",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "大阪",
+        "role": "place",
+        "reading": "おおさか"
+      },
+      {
+        "id": "t6",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "Existence of a thing: place に, あります.",
+    "notes": "家は大阪にあります. に is the location, not で.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "います",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-29",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "How much is this?",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "これ",
+        "role": "subject"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "いくら",
+        "role": "noun"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      },
+      {
+        "id": "t5",
+        "surface": "か",
+        "role": "particle"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "いくら asks the price. か makes it a question.",
+    "notes": "これはいくらですか.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "何",
+        "role": "noun",
+        "reading": "なん"
+      }
+    ]
+  },
+  {
+    "id": "n5-30",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I like fish.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "魚",
+        "role": "subject",
+        "reading": "さかな"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "好き",
+        "role": "adj",
+        "reading": "すき"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "好き takes が, not を.",
+    "notes": "魚が好きです. を is the usual mistake.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "嫌い",
+        "role": "adj",
+        "reading": "きらい"
+      }
+    ]
+  },
+  {
+    "id": "n5-31",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "There are children in the classroom.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "教室",
+        "role": "place",
+        "reading": "きょうしつ"
+      },
+      {
+        "id": "t2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "子供",
+        "role": "subject",
+        "reading": "こども"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "います",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "Place に, living subject が, います.",
+    "notes": "教室に子供がいます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-32",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I buy vegetables at the supermarket.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "スーパー",
+        "role": "place"
+      },
+      {
+        "id": "t4",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "野菜",
+        "role": "object",
+        "reading": "やさい"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "買います",
+        "role": "verb",
+        "reading": "かいます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "Place of the action is で. Object is を.",
+    "notes": "スーパーで野菜を買います. に would mark a destination, not the shop where you buy.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "売ります",
+        "role": "verb",
+        "reading": "うります"
+      }
+    ]
+  },
+  {
+    "id": "n5-33",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I will go to the museum tomorrow.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "明日",
+        "role": "time",
+        "reading": "あした"
+      },
+      {
+        "id": "t4",
+        "surface": "博物館",
+        "role": "place",
+        "reading": "はくぶつかん"
+      },
+      {
+        "id": "t5",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "行きます",
+        "role": "verb",
+        "reading": "いきます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "Destination に. Relative days like 明日 take no particle.",
+    "notes": "明日博物館に行きます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "来ます",
+        "role": "verb",
+        "reading": "きます"
+      }
+    ]
+  },
+  {
+    "id": "n5-34",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "He is good at Japanese.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼",
+        "role": "topic",
+        "reading": "かれ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "日本語",
+        "role": "subject",
+        "reading": "にほんご"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "上手",
+        "role": "adj",
+        "reading": "じょうず"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "上手 takes が, like 好き.",
+    "notes": "日本語が上手です. 下手 is the opposite.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "下手",
+        "role": "adj",
+        "reading": "へた"
+      }
+    ]
+  },
+  {
+    "id": "n5-35",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I listen to music at night.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "夜",
+        "role": "time",
+        "reading": "よる"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "音楽",
+        "role": "object",
+        "reading": "おんがく"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "聞きます",
+        "role": "verb",
+        "reading": "ききます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "夜に is the time. を marks what you listen to.",
+    "notes": "夜に音楽を聞きます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "見ます",
+        "role": "verb",
+        "reading": "みます"
+      }
+    ]
+  },
+  {
+    "id": "n5-36",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "My younger brother is ten years old.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "弟",
+        "role": "topic",
+        "reading": "おとうと"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "十歳",
+        "role": "noun",
+        "reading": "じゅっさい"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "Age is noun + です. 歳 is the counter.",
+    "notes": "弟は十歳です.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "います",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-37",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "Please open the window.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "窓",
+        "role": "object",
+        "reading": "まど"
+      },
+      {
+        "id": "t2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "開けて",
+        "role": "te",
+        "reading": "あけて"
+      },
+      {
+        "id": "t4",
+        "surface": "ください",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "て-form + ください. Object を.",
+    "notes": "窓を開けてください. 閉めて is the opposite.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "閉めて",
+        "role": "te",
+        "reading": "しめて"
+      }
+    ]
+  },
+  {
+    "id": "n5-38",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I come to school at eight-thirty.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "八時半",
+        "role": "time",
+        "reading": "はちじはん"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "学校",
+        "role": "place",
+        "reading": "がっこう"
+      },
+      {
+        "id": "t6",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "来ます",
+        "role": "verb",
+        "reading": "きます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ],
+      [
+        "t1",
+        "t2",
+        "t5",
+        "t6",
+        "t3",
+        "t4",
+        "t7"
+      ]
+    ],
+    "hint": "Time に and place に. Either order is accepted.",
+    "notes": "八時半に学校に来ます, or 学校に八時半に来ます. Both に tiles are the same particle.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行きます",
+        "role": "verb",
+        "reading": "いきます"
+      }
+    ]
+  },
+  {
+    "id": "n5-39",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "There is a book on the desk.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "机",
+        "role": "place",
+        "reading": "つくえ"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "上",
+        "role": "position",
+        "reading": "うえ"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "本",
+        "role": "subject",
+        "reading": "ほん"
+      },
+      {
+        "id": "t6",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "Location に, thing が, あります for an object.",
+    "notes": "机の上に本があります.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "います",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n5-40",
+    "jlpt": "N5",
+    "level": "beginner",
+    "english": "I go home with a friend.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "友達",
+        "role": "noun",
+        "reading": "ともだち"
+      },
+      {
+        "id": "t4",
+        "surface": "と",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "うち",
+        "role": "place"
+      },
+      {
+        "id": "t6",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "帰ります",
+        "role": "verb",
+        "reading": "かえります"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "と means 'together with'. に is the destination.",
+    "notes": "友達とうちに帰ります.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "も",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行きます",
+        "role": "verb",
+        "reading": "いきます"
+      }
+    ]
+  },
+  {
     "id": "n4-01",
     "jlpt": "N4",
     "level": "intermediate",
@@ -1685,6 +3457,1999 @@
     ]
   },
   {
+    "id": "n4-12",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I want to eat ramen.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "ラーメン",
+        "role": "subject"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "食べたい",
+        "role": "verb",
+        "reading": "たべたい"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "たい attaches to the masu-stem. The thing you want takes が.",
+    "notes": "ラーメンが食べたいです. を is the common mistake.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "食べます",
+        "role": "verb",
+        "reading": "たべます"
+      }
+    ]
+  },
+  {
+    "id": "n4-13",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I have been to Kyoto.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "京都",
+        "role": "place",
+        "reading": "きょうと"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "行った",
+        "role": "verb",
+        "reading": "いった"
+      },
+      {
+        "id": "t6",
+        "surface": "こと",
+        "role": "noun"
+      },
+      {
+        "id": "t7",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t8",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    ],
+    "hint": "たことがある = have the experience of.",
+    "notes": "京都に行ったことがあります. 行った is いった, not おこなった.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "へ",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行きました",
+        "role": "verb",
+        "reading": "いきました"
+      }
+    ]
+  },
+  {
+    "id": "n4-14",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "After work ends, I drink tea.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "仕事",
+        "role": "subject",
+        "reading": "しごと"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "終わってから",
+        "role": "te",
+        "reading": "おわってから"
+      },
+      {
+        "id": "t4",
+        "surface": "お茶",
+        "role": "object",
+        "reading": "おちゃ"
+      },
+      {
+        "id": "t5",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "飲みます",
+        "role": "verb",
+        "reading": "のみます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "てから = after doing that, then the next action.",
+    "notes": "終わってから. から here is part of てから, not the reason から.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "終わったから",
+        "role": "te",
+        "reading": "おわったから"
+      }
+    ]
+  },
+  {
+    "id": "n4-15",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I am reading a book now.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "今",
+        "role": "time",
+        "reading": "いま"
+      },
+      {
+        "id": "t4",
+        "surface": "本",
+        "role": "object",
+        "reading": "ほん"
+      },
+      {
+        "id": "t5",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "読んでいます",
+        "role": "verb",
+        "reading": "よんでいます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "ている = an action in progress.",
+    "notes": "今本を読んでいます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "読みます",
+        "role": "verb",
+        "reading": "よみます"
+      }
+    ]
+  },
+  {
+    "id": "n4-16",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "Please try this cake.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "ケーキ",
+        "role": "object"
+      },
+      {
+        "id": "t3",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "食べてみて",
+        "role": "te",
+        "reading": "たべてみて"
+      },
+      {
+        "id": "t5",
+        "surface": "ください",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "てみる = try doing it and see.",
+    "notes": "食べてみてください.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "食べて",
+        "role": "te",
+        "reading": "たべて"
+      }
+    ]
+  },
+  {
+    "id": "n4-17",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "You must not run here.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "ここ",
+        "role": "place"
+      },
+      {
+        "id": "t2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "走っては",
+        "role": "te",
+        "reading": "はしっては"
+      },
+      {
+        "id": "t4",
+        "surface": "いけません",
+        "role": "must"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "てはいけない = it is not allowed.",
+    "notes": "ここで走ってはいけません. で is the place of the action.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "走ると",
+        "role": "cond",
+        "reading": "はしると"
+      }
+    ]
+  },
+  {
+    "id": "n4-18",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I will buy the ticket ahead of time.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "切符",
+        "role": "object",
+        "reading": "きっぷ"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "買っておきます",
+        "role": "verb",
+        "reading": "かっておきます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ておく = do it in advance.",
+    "notes": "切符を買っておきます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "買います",
+        "role": "verb",
+        "reading": "かいます"
+      }
+    ]
+  },
+  {
+    "id": "n4-19",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "This camera is too expensive.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "カメラ",
+        "role": "topic"
+      },
+      {
+        "id": "t3",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "高すぎます",
+        "role": "suffix",
+        "reading": "たかすぎます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "すぎる attaches to the adjective stem.",
+    "notes": "高すぎます — stem 高 plus すぎます.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "高いです",
+        "role": "adj",
+        "reading": "たかいです"
+      }
+    ]
+  },
+  {
+    "id": "n4-20",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "This dictionary is easy to use.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "辞書",
+        "role": "topic",
+        "reading": "じしょ"
+      },
+      {
+        "id": "t3",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "使いやすい",
+        "role": "suffix",
+        "reading": "つかいやすい"
+      },
+      {
+        "id": "t5",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ます-stem + やすい = easy to do.",
+    "notes": "使いやすいです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "使いにくい",
+        "role": "suffix",
+        "reading": "つかいにくい"
+      }
+    ]
+  },
+  {
+    "id": "n4-21",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I plan to study abroad next year.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "来年",
+        "role": "time",
+        "reading": "らいねん"
+      },
+      {
+        "id": "t4",
+        "surface": "留学する",
+        "role": "verb",
+        "reading": "りゅうがくする"
+      },
+      {
+        "id": "t5",
+        "surface": "つもり",
+        "role": "modal"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "dictionary form + つもりです = the speaker's plan.",
+    "notes": "来年留学するつもりです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "予定",
+        "role": "noun",
+        "reading": "よてい"
+      }
+    ]
+  },
+  {
+    "id": "n4-22",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "It looks like it will rain tomorrow.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "明日",
+        "role": "time",
+        "reading": "あした"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "雨",
+        "role": "subject",
+        "reading": "あめ"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "降りそうです",
+        "role": "modal",
+        "reading": "ふりそうです"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ます-stem + そうです = it looks like it will.",
+    "notes": "雨が降りそうです. Based on what you see now.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "降ります",
+        "role": "verb",
+        "reading": "ふります"
+      }
+    ]
+  },
+  {
+    "id": "n4-23",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I heard that shop is closed.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "あの",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "店",
+        "role": "topic",
+        "reading": "みせ"
+      },
+      {
+        "id": "t3",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "休み",
+        "role": "noun",
+        "reading": "やすみ"
+      },
+      {
+        "id": "t5",
+        "surface": "だそうです",
+        "role": "modal"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "Noun + だそうです = hearsay.",
+    "notes": "休みだそうです. You did not see it yourself.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "ようです",
+        "role": "modal"
+      }
+    ]
+  },
+  {
+    "id": "n4-24",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "You don't have to come tomorrow.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "明日",
+        "role": "time",
+        "reading": "あした"
+      },
+      {
+        "id": "t2",
+        "surface": "来なくても",
+        "role": "verb",
+        "reading": "こなくても"
+      },
+      {
+        "id": "t3",
+        "surface": "いい",
+        "role": "adj"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "なくてもいい = it is not necessary.",
+    "notes": "来なくてもいいです. 来る negative is こない, so こなくても.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "来ては",
+        "role": "te",
+        "reading": "きては"
+      },
+      {
+        "id": "d3",
+        "surface": "来なければ",
+        "role": "verb",
+        "reading": "こなければ"
+      }
+    ]
+  },
+  {
+    "id": "n4-25",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I wash my hands before eating.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "食べる",
+        "role": "verb",
+        "reading": "たべる"
+      },
+      {
+        "id": "t2",
+        "surface": "前に",
+        "role": "time",
+        "reading": "まえに"
+      },
+      {
+        "id": "t3",
+        "surface": "手",
+        "role": "object",
+        "reading": "て"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "洗います",
+        "role": "verb",
+        "reading": "あらいます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "dictionary form + 前に = before doing that.",
+    "notes": "食べる前に. The main action comes after.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "後で",
+        "role": "time",
+        "reading": "あとで"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "に",
+        "role": "particle"
+      }
+    ]
+  },
+  {
+    "id": "n4-26",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I had my older brother teach me Japanese.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "兄",
+        "role": "noun",
+        "reading": "あに"
+      },
+      {
+        "id": "t2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "日本語",
+        "role": "object",
+        "reading": "にほんご"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "教えて",
+        "role": "te",
+        "reading": "おしえて"
+      },
+      {
+        "id": "t6",
+        "surface": "もらいました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "に + て-form + もらう = someone does it for me.",
+    "notes": "兄に教えてもらいました. あげる would point the favor the wrong way.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "あげました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n4-27",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "Shall we go as far as the station by taxi?",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "駅",
+        "role": "place",
+        "reading": "えき"
+      },
+      {
+        "id": "t2",
+        "surface": "まで",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "タクシー",
+        "role": "means"
+      },
+      {
+        "id": "t4",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "行きましょうか",
+        "role": "vol",
+        "reading": "いきましょうか"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ましょうか invites. まで is the limit, で is the means.",
+    "notes": "駅までタクシーで行きましょうか.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "から",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行きませんか",
+        "role": "verb",
+        "reading": "いきませんか"
+      }
+    ]
+  },
+  {
+    "id": "n4-28",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I have started learning the piano.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "ピアノ",
+        "role": "object"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "習い始めました",
+        "role": "verb",
+        "reading": "ならいはじめました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ます-stem + 始める = begin to do.",
+    "notes": "習い始めました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "習いました",
+        "role": "verb",
+        "reading": "ならいました"
+      }
+    ]
+  },
+  {
+    "id": "n4-29",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "Please turn off the light before you leave.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "出かける",
+        "role": "verb",
+        "reading": "でかける"
+      },
+      {
+        "id": "t2",
+        "surface": "前に",
+        "role": "time",
+        "reading": "まえに"
+      },
+      {
+        "id": "t3",
+        "surface": "電気",
+        "role": "object",
+        "reading": "でんき"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "消して",
+        "role": "te",
+        "reading": "けして"
+      },
+      {
+        "id": "t6",
+        "surface": "ください",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "dictionary form + 前に, then てください.",
+    "notes": "出かける前に電気を消してください.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "後で",
+        "role": "time",
+        "reading": "あとで"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "つけて",
+        "role": "te"
+      }
+    ]
+  },
+  {
+    "id": "n4-30",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "If you have time, please call.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "時間",
+        "role": "subject",
+        "reading": "じかん"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "あったら",
+        "role": "cond"
+      },
+      {
+        "id": "t4",
+        "surface": "電話して",
+        "role": "verb",
+        "reading": "でんわして"
+      },
+      {
+        "id": "t5",
+        "surface": "ください",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "たら = if / when that happens.",
+    "notes": "時間があったら電話してください.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "電話した",
+        "role": "verb",
+        "reading": "でんわした"
+      }
+    ]
+  },
+  {
+    "id": "n4-31",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I gave my friend a present.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "友達",
+        "role": "noun",
+        "reading": "ともだち"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "プレゼント",
+        "role": "object"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "あげました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "にあげる = I give to someone else.",
+    "notes": "友達にプレゼントをあげました. もらう would mean I received it.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "もらいました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n4-32",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "This kanji is hard to read.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "漢字",
+        "role": "topic",
+        "reading": "かんじ"
+      },
+      {
+        "id": "t3",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "読みにくい",
+        "role": "suffix",
+        "reading": "よみにくい"
+      },
+      {
+        "id": "t5",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ます-stem + にくい = hard to do.",
+    "notes": "読みにくいです. やすい is the opposite.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "読みやすい",
+        "role": "suffix",
+        "reading": "よみやすい"
+      }
+    ]
+  },
+  {
+    "id": "n4-33",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I think she has already gone home.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼女",
+        "role": "topic",
+        "reading": "かのじょ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "もう",
+        "role": "adv"
+      },
+      {
+        "id": "t4",
+        "surface": "帰った",
+        "role": "verb",
+        "reading": "かえった"
+      },
+      {
+        "id": "t5",
+        "surface": "と",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "思います",
+        "role": "verb",
+        "reading": "おもいます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "Plain form + と思います quotes your thought.",
+    "notes": "もう帰ったと思います. と marks the thought.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "帰ろう",
+        "role": "vol",
+        "reading": "かえろう"
+      }
+    ]
+  },
+  {
+    "id": "n4-34",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "Have you ever eaten natto?",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "納豆",
+        "role": "object",
+        "reading": "なっとう"
+      },
+      {
+        "id": "t2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "食べた",
+        "role": "verb",
+        "reading": "たべた"
+      },
+      {
+        "id": "t4",
+        "surface": "こと",
+        "role": "noun"
+      },
+      {
+        "id": "t5",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "ありますか",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "たことがあるか asks about experience.",
+    "notes": "納豆を食べたことがありますか.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "食べます",
+        "role": "verb",
+        "reading": "たべます"
+      }
+    ]
+  },
+  {
+    "id": "n4-35",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "He likes cooking.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼",
+        "role": "topic",
+        "reading": "かれ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "料理",
+        "role": "object",
+        "reading": "りょうり"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "する",
+        "role": "verb"
+      },
+      {
+        "id": "t6",
+        "surface": "の",
+        "role": "noun"
+      },
+      {
+        "id": "t7",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t8",
+        "surface": "好き",
+        "role": "adj",
+        "reading": "すき"
+      },
+      {
+        "id": "t9",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9"
+      ]
+    ],
+    "hint": "dictionary form + のが好き = likes doing it.",
+    "notes": "料理をするのが好きです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "好きじゃない",
+        "role": "adj",
+        "reading": "すきじゃない"
+      }
+    ]
+  },
+  {
+    "id": "n4-36",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "It's raining, so I'll take an umbrella.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "雨",
+        "role": "subject",
+        "reading": "あめ"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "降っている",
+        "role": "verb",
+        "reading": "ふっている"
+      },
+      {
+        "id": "t4",
+        "surface": "から",
+        "role": "conj"
+      },
+      {
+        "id": "t5",
+        "surface": "傘",
+        "role": "object",
+        "reading": "かさ"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "持っていきます",
+        "role": "verb",
+        "reading": "もっていきます"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "ている for the weather now. から gives the reason.",
+    "notes": "降っているから傘を持っていきます. This item uses から, not ので.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "ので",
+        "role": "conj"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "持ってきました",
+        "role": "verb",
+        "reading": "もってきました"
+      }
+    ]
+  },
+  {
+    "id": "n4-37",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I went and left my umbrella on the bus.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "バス",
+        "role": "place"
+      },
+      {
+        "id": "t2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "傘",
+        "role": "object",
+        "reading": "かさ"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "忘れて",
+        "role": "te",
+        "reading": "わすれて"
+      },
+      {
+        "id": "t6",
+        "surface": "しまいました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "てしまう = it happened and you didn't mean to.",
+    "notes": "バスに傘を忘れてしまいました. に is where you left it.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "へ",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "忘れました",
+        "role": "verb",
+        "reading": "わすれました"
+      }
+    ]
+  },
+  {
+    "id": "n4-38",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I didn't know the way, so I asked a station employee.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "道",
+        "role": "subject",
+        "reading": "みち"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "分からなかった",
+        "role": "verb",
+        "reading": "わからなかった"
+      },
+      {
+        "id": "t4",
+        "surface": "ので",
+        "role": "conj"
+      },
+      {
+        "id": "t5",
+        "surface": "駅員",
+        "role": "noun",
+        "reading": "えきいん"
+      },
+      {
+        "id": "t6",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "聞きました",
+        "role": "verb",
+        "reading": "ききました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "なかったので = because (past negative). Ask someone に.",
+    "notes": "道が分からなかったので駅員に聞きました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "から",
+        "role": "conj"
+      },
+      {
+        "id": "d3",
+        "surface": "聞きませんでした",
+        "role": "verb",
+        "reading": "ききませんでした"
+      }
+    ]
+  },
+  {
+    "id": "n4-39",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "I want you to look at this photo.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "写真",
+        "role": "object",
+        "reading": "しゃしん"
+      },
+      {
+        "id": "t3",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "見て",
+        "role": "te",
+        "reading": "みて"
+      },
+      {
+        "id": "t5",
+        "surface": "ほしい",
+        "role": "verb"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "てほしい = I want you to do it. たい would mean I want to do it myself.",
+    "notes": "見てほしいです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "見たい",
+        "role": "verb",
+        "reading": "みたい"
+      }
+    ]
+  },
+  {
+    "id": "n4-40",
+    "jlpt": "N4",
+    "level": "intermediate",
+    "english": "While I was out, it rained.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "出かけている",
+        "role": "verb",
+        "reading": "でかけている"
+      },
+      {
+        "id": "t2",
+        "surface": "間に",
+        "role": "time",
+        "reading": "あいだに"
+      },
+      {
+        "id": "t3",
+        "surface": "雨",
+        "role": "subject",
+        "reading": "あめ"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "降りました",
+        "role": "verb",
+        "reading": "ふりました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "ている間に = during that time, something else happened.",
+    "notes": "出かけている間に雨が降りました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "後で",
+        "role": "time",
+        "reading": "あとで"
+      },
+      {
+        "id": "d3",
+        "surface": "降ります",
+        "role": "verb",
+        "reading": "ふります"
+      }
+    ]
+  },
+  {
     "id": "n3-01",
     "jlpt": "N3",
     "level": "advanced",
@@ -2372,6 +6137,2206 @@
         "surface": "帰る",
         "role": "verb",
         "reading": "かえる"
+      }
+    ]
+  },
+  {
+    "id": "n3-10",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I left home early so that I wouldn't be late.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "遅れない",
+        "role": "verb",
+        "reading": "おくれない"
+      },
+      {
+        "id": "t2",
+        "surface": "ように",
+        "role": "conj"
+      },
+      {
+        "id": "t3",
+        "surface": "早く",
+        "role": "adv",
+        "reading": "はやく"
+      },
+      {
+        "id": "t4",
+        "surface": "うち",
+        "role": "place"
+      },
+      {
+        "id": "t5",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "出ました",
+        "role": "verb",
+        "reading": "でました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "ないように = so that something does not happen.",
+    "notes": "遅れないように早くうちを出ました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "遅れる",
+        "role": "verb",
+        "reading": "おくれる"
+      }
+    ]
+  },
+  {
+    "id": "n3-11",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I have just come to Japan.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "日本",
+        "role": "place",
+        "reading": "にほん"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "来た",
+        "role": "verb",
+        "reading": "きた"
+      },
+      {
+        "id": "t6",
+        "surface": "ばかり",
+        "role": "expr"
+      },
+      {
+        "id": "t7",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "たばかり = the action is still recent.",
+    "notes": "日本に来たばかりです. 来た is きた.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "来ます",
+        "role": "verb",
+        "reading": "きます"
+      }
+    ]
+  },
+  {
+    "id": "n3-12",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "It's not that I dislike vegetables.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "野菜",
+        "role": "subject",
+        "reading": "やさい"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "嫌いな",
+        "role": "adj",
+        "reading": "きらいな"
+      },
+      {
+        "id": "t4",
+        "surface": "わけでは",
+        "role": "expr"
+      },
+      {
+        "id": "t5",
+        "surface": "ありません",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "わけではない softens a denial: that's not the case.",
+    "notes": "嫌いなわけではありません. な-adjective takes な before わけ.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "好きな",
+        "role": "adj",
+        "reading": "すきな"
+      }
+    ]
+  },
+  {
+    "id": "n3-13",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "The window was opened by the wind.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "窓",
+        "role": "subject",
+        "reading": "まど"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "風",
+        "role": "agent",
+        "reading": "かぜ"
+      },
+      {
+        "id": "t4",
+        "surface": "によって",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "開けられました",
+        "role": "passive",
+        "reading": "あけられました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "によって marks the agent of a passive.",
+    "notes": "風によって開けられました. 開ける → 開けられる.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "開けました",
+        "role": "verb",
+        "reading": "あけました"
+      }
+    ]
+  },
+  {
+    "id": "n3-14",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "The manager made the staff write a report.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "部長",
+        "role": "causer",
+        "reading": "ぶちょう"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "社員",
+        "role": "causee",
+        "reading": "しゃいん"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "報告書",
+        "role": "object",
+        "reading": "ほうこくしょ"
+      },
+      {
+        "id": "t6",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "書かせました",
+        "role": "caus",
+        "reading": "かかせました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "Causer は, person made to act に, object を, causative verb.",
+    "notes": "書かせました. 書く → 書かせる.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "書きました",
+        "role": "verb",
+        "reading": "かきました"
+      }
+    ]
+  },
+  {
+    "id": "n3-15",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I was made to wait for an hour.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "一時間",
+        "role": "time",
+        "reading": "いちじかん"
+      },
+      {
+        "id": "t4",
+        "surface": "待たされました",
+        "role": "passive",
+        "reading": "またされました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "Causative-passive: someone made me do it, to my cost.",
+    "notes": "待たされました. 待つ becomes 待たされる, not 待たさせられる, in ordinary speech.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "待ちました",
+        "role": "verb",
+        "reading": "まちました"
+      }
+    ]
+  },
+  {
+    "id": "n3-16",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I decided to move next spring.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "来年",
+        "role": "time",
+        "reading": "らいねん"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "春",
+        "role": "time",
+        "reading": "はる"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "引っ越す",
+        "role": "verb",
+        "reading": "ひっこす"
+      },
+      {
+        "id": "t6",
+        "surface": "ことに",
+        "role": "expr"
+      },
+      {
+        "id": "t7",
+        "surface": "しました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "ことにする = the speaker decides.",
+    "notes": "引っ越すことにしました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "なりました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-17",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "It was decided that the meeting will be held online.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "会議",
+        "role": "topic",
+        "reading": "かいぎ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "オンライン",
+        "role": "means"
+      },
+      {
+        "id": "t4",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "行う",
+        "role": "verb",
+        "reading": "おこなう"
+      },
+      {
+        "id": "t6",
+        "surface": "ことに",
+        "role": "expr"
+      },
+      {
+        "id": "t7",
+        "surface": "なりました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "ことになる = decided from outside, not your own choice.",
+    "notes": "行うことになりました. Contrast with ことにする.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "しました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-18",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I make a point of walking every day.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "topic",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "毎日",
+        "role": "time",
+        "reading": "まいにち"
+      },
+      {
+        "id": "t4",
+        "surface": "歩く",
+        "role": "verb",
+        "reading": "あるく"
+      },
+      {
+        "id": "t5",
+        "surface": "ように",
+        "role": "conj"
+      },
+      {
+        "id": "t6",
+        "surface": "しています",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "ようにする = make an effort to keep doing it.",
+    "notes": "歩くようにしています.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "歩きました",
+        "role": "verb",
+        "reading": "あるきました"
+      }
+    ]
+  },
+  {
+    "id": "n3-19",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "While I wasn't looking, the child started to run.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "見ていない",
+        "role": "verb",
+        "reading": "みていない"
+      },
+      {
+        "id": "t2",
+        "surface": "うちに",
+        "role": "conj"
+      },
+      {
+        "id": "t3",
+        "surface": "子供",
+        "role": "subject",
+        "reading": "こども"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "走り出しました",
+        "role": "verb",
+        "reading": "はしりだしました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "うちに = during that window, before the situation changes.",
+    "notes": "見ていないうちに子供が走り出しました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "後で",
+        "role": "time",
+        "reading": "あとで"
+      },
+      {
+        "id": "d3",
+        "surface": "走っていました",
+        "role": "verb",
+        "reading": "はしっていました"
+      }
+    ]
+  },
+  {
+    "id": "n3-20",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "Thanks to my teacher, I passed the exam.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "先生",
+        "role": "noun",
+        "reading": "せんせい"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "おかげで",
+        "role": "conj"
+      },
+      {
+        "id": "t4",
+        "surface": "試験",
+        "role": "noun",
+        "reading": "しけん"
+      },
+      {
+        "id": "t5",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "合格",
+        "role": "noun",
+        "reading": "ごうかく"
+      },
+      {
+        "id": "t7",
+        "surface": "しました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "おかげで = a cause you are grateful for.",
+    "notes": "先生のおかげで試験に合格しました. に marks the exam.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "せいで",
+        "role": "conj"
+      },
+      {
+        "id": "d3",
+        "surface": "失敗",
+        "role": "noun",
+        "reading": "しっぱい"
+      }
+    ]
+  },
+  {
+    "id": "n3-21",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "He must be at the office.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼",
+        "role": "topic",
+        "reading": "かれ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "事務所",
+        "role": "place",
+        "reading": "じむしょ"
+      },
+      {
+        "id": "t4",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "いる",
+        "role": "verb"
+      },
+      {
+        "id": "t6",
+        "surface": "に違いない",
+        "role": "modal",
+        "reading": "にちがいない"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "に違いない = the speaker is convinced.",
+    "notes": "事務所にいるに違いない.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "かもしれません",
+        "role": "modal"
+      }
+    ]
+  },
+  {
+    "id": "n3-22",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "You ought to apologize soon.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "早く",
+        "role": "adv",
+        "reading": "はやく"
+      },
+      {
+        "id": "t2",
+        "surface": "謝る",
+        "role": "verb",
+        "reading": "あやまる"
+      },
+      {
+        "id": "t3",
+        "surface": "べき",
+        "role": "modal"
+      },
+      {
+        "id": "t4",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "dictionary form + べきだ = duty, in the speaker's view.",
+    "notes": "早く謝るべきです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "謝った",
+        "role": "verb",
+        "reading": "あやまった"
+      }
+    ]
+  },
+  {
+    "id": "n3-23",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "Every time I see this photo, I remember the trip.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "写真",
+        "role": "object",
+        "reading": "しゃしん"
+      },
+      {
+        "id": "t3",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "見る",
+        "role": "verb",
+        "reading": "みる"
+      },
+      {
+        "id": "t5",
+        "surface": "たびに",
+        "role": "conj"
+      },
+      {
+        "id": "t6",
+        "surface": "旅行",
+        "role": "object",
+        "reading": "りょこう"
+      },
+      {
+        "id": "t7",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t8",
+        "surface": "思い出します",
+        "role": "verb",
+        "reading": "おもいだします"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    ],
+    "hint": "dictionary form + たびに = whenever.",
+    "notes": "見るたびに思い出します. The two を tiles are interchangeable.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "忘れます",
+        "role": "verb",
+        "reading": "わすれます"
+      }
+    ]
+  },
+  {
+    "id": "n3-24",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I tried to open the door, but it wouldn't open.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "ドア",
+        "role": "object"
+      },
+      {
+        "id": "t2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "開けよう",
+        "role": "vol",
+        "reading": "あけよう"
+      },
+      {
+        "id": "t4",
+        "surface": "と",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "しました",
+        "role": "verb"
+      },
+      {
+        "id": "t6",
+        "surface": "が",
+        "role": "conj"
+      },
+      {
+        "id": "t7",
+        "surface": "開きませんでした",
+        "role": "verb",
+        "reading": "あきませんでした"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "Volitional + とする = attempt. が = but.",
+    "notes": "開けようとした (transitive) but 開きませんでした (intransitive).",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "開けました",
+        "role": "verb",
+        "reading": "あけました"
+      }
+    ]
+  },
+  {
+    "id": "n3-25",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "Getting up early is hard for me.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "私",
+        "role": "noun",
+        "reading": "わたし"
+      },
+      {
+        "id": "t2",
+        "surface": "にとって",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "早起き",
+        "role": "topic",
+        "reading": "はやおき"
+      },
+      {
+        "id": "t4",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "つらい",
+        "role": "adj"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "にとって = from that person's point of view.",
+    "notes": "私にとって早起きはつらいです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "について",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "やさしい",
+        "role": "adj"
+      }
+    ]
+  },
+  {
+    "id": "n3-26",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I am opposed to that plan.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "その",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "計画",
+        "role": "noun",
+        "reading": "けいかく"
+      },
+      {
+        "id": "t3",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "反対",
+        "role": "noun",
+        "reading": "はんたい"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "に marks what the stance is aimed at. は adds contrast.",
+    "notes": "その計画には反対です.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "賛成",
+        "role": "noun",
+        "reading": "さんせい"
+      }
+    ]
+  },
+  {
+    "id": "n3-27",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "As a student, I don't have much money.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "学生",
+        "role": "noun",
+        "reading": "がくせい"
+      },
+      {
+        "id": "t2",
+        "surface": "として",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "お金",
+        "role": "subject",
+        "reading": "おかね"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "あまり",
+        "role": "adv"
+      },
+      {
+        "id": "t6",
+        "surface": "ありません",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "として = in the role of. あまり + negative.",
+    "notes": "学生としてお金があまりありません.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "あります",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-28",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "He tends to be late.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼",
+        "role": "topic",
+        "reading": "かれ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "遅刻",
+        "role": "noun",
+        "reading": "ちこく"
+      },
+      {
+        "id": "t4",
+        "surface": "しがち",
+        "role": "suffix"
+      },
+      {
+        "id": "t5",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "がち = tends to, often a habit you don't admire.",
+    "notes": "遅刻しがちです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "しません",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-29",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I can't very well refuse this request.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "頼み",
+        "role": "object",
+        "reading": "たのみ"
+      },
+      {
+        "id": "t3",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "断る",
+        "role": "verb",
+        "reading": "ことわる"
+      },
+      {
+        "id": "t5",
+        "surface": "わけには",
+        "role": "expr"
+      },
+      {
+        "id": "t6",
+        "surface": "いきません",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "わけにはいかない = circumstances won't allow it, even if you could.",
+    "notes": "断るわけにはいきません. Not the same as 断れません (ability).",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "断れません",
+        "role": "pot",
+        "reading": "ことわれません"
+      }
+    ]
+  },
+  {
+    "id": "n3-30",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "The report is supposed to be handed in by Friday.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "金曜日",
+        "role": "time",
+        "reading": "きんようび"
+      },
+      {
+        "id": "t2",
+        "surface": "までに",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "報告書",
+        "role": "object",
+        "reading": "ほうこくしょ"
+      },
+      {
+        "id": "t4",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "出す",
+        "role": "verb",
+        "reading": "だす"
+      },
+      {
+        "id": "t6",
+        "surface": "ことに",
+        "role": "expr"
+      },
+      {
+        "id": "t7",
+        "surface": "なっています",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "ことになっている = an existing rule or arrangement.",
+    "notes": "金曜日までに出すことになっています. までに is the deadline.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "から",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "しました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-31",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "The phone rang in the middle of the meal.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "食事",
+        "role": "noun",
+        "reading": "しょくじ"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "最中に",
+        "role": "time",
+        "reading": "さいちゅうに"
+      },
+      {
+        "id": "t4",
+        "surface": "電話",
+        "role": "subject",
+        "reading": "でんわ"
+      },
+      {
+        "id": "t5",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "鳴りました",
+        "role": "verb",
+        "reading": "なりました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "最中に = right in the middle of.",
+    "notes": "食事の最中に電話が鳴りました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "鳴ります",
+        "role": "verb",
+        "reading": "なります"
+      }
+    ]
+  },
+  {
+    "id": "n3-32",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "Even though I explained, I couldn't get them to understand.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "説明した",
+        "role": "verb",
+        "reading": "せつめいした"
+      },
+      {
+        "id": "t2",
+        "surface": "にもかかわらず",
+        "role": "conj"
+      },
+      {
+        "id": "t3",
+        "surface": "分かって",
+        "role": "te",
+        "reading": "わかって"
+      },
+      {
+        "id": "t4",
+        "surface": "もらえませんでした",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    ],
+    "hint": "にもかかわらず = even so, a strong contrast.",
+    "notes": "説明したにもかかわらず分かってもらえませんでした.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "ので",
+        "role": "conj"
+      },
+      {
+        "id": "d2",
+        "surface": "から",
+        "role": "conj"
+      },
+      {
+        "id": "d3",
+        "surface": "もらいました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-33",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "From the fact that smoke was rising, I realized it was a fire.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "煙",
+        "role": "subject",
+        "reading": "けむり"
+      },
+      {
+        "id": "t2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "出ている",
+        "role": "verb",
+        "reading": "でている"
+      },
+      {
+        "id": "t4",
+        "surface": "ことから",
+        "role": "conj"
+      },
+      {
+        "id": "t5",
+        "surface": "火事",
+        "role": "noun",
+        "reading": "かじ"
+      },
+      {
+        "id": "t6",
+        "surface": "だと",
+        "role": "copula"
+      },
+      {
+        "id": "t7",
+        "surface": "分かりました",
+        "role": "verb",
+        "reading": "わかりました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    ],
+    "hint": "ことから = the basis of a conclusion.",
+    "notes": "煙が出ていることから火事だと分かりました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "ので",
+        "role": "conj"
+      },
+      {
+        "id": "d3",
+        "surface": "知りませんでした",
+        "role": "verb",
+        "reading": "しりませんでした"
+      }
+    ]
+  },
+  {
+    "id": "n3-34",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I asked them to speak more slowly.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "もっと",
+        "role": "adv"
+      },
+      {
+        "id": "t2",
+        "surface": "ゆっくり",
+        "role": "adv"
+      },
+      {
+        "id": "t3",
+        "surface": "話す",
+        "role": "verb",
+        "reading": "はなす"
+      },
+      {
+        "id": "t4",
+        "surface": "ように",
+        "role": "conj"
+      },
+      {
+        "id": "t5",
+        "surface": "頼みました",
+        "role": "verb",
+        "reading": "たのみました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "dictionary form + ように頼む = ask someone to do it.",
+    "notes": "もっとゆっくり話すように頼みました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "と",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "話しました",
+        "role": "verb",
+        "reading": "はなしました"
+      }
+    ]
+  },
+  {
+    "id": "n3-35",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "No wonder he can speak English: he had studied abroad.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "彼",
+        "role": "topic",
+        "reading": "かれ"
+      },
+      {
+        "id": "t2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "留学していた",
+        "role": "verb",
+        "reading": "りゅうがくしていた"
+      },
+      {
+        "id": "t4",
+        "surface": "ので",
+        "role": "conj"
+      },
+      {
+        "id": "t5",
+        "surface": "英語",
+        "role": "subject",
+        "reading": "えいご"
+      },
+      {
+        "id": "t6",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t7",
+        "surface": "話せる",
+        "role": "pot",
+        "reading": "はなせる"
+      },
+      {
+        "id": "t8",
+        "surface": "わけです",
+        "role": "expr"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    ],
+    "hint": "わけだ = the result follows naturally.",
+    "notes": "留学していたので英語が話せるわけです.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "から",
+        "role": "conj"
+      },
+      {
+        "id": "d3",
+        "surface": "話します",
+        "role": "verb",
+        "reading": "はなします"
+      }
+    ]
+  },
+  {
+    "id": "n3-36",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "I can't help worrying about the exam results.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "試験",
+        "role": "noun",
+        "reading": "しけん"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "結果",
+        "role": "subject",
+        "reading": "けっか"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "心配で",
+        "role": "adj",
+        "reading": "しんぱいで"
+      },
+      {
+        "id": "t6",
+        "surface": "なりません",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "てならない = a feeling too strong to hold back.",
+    "notes": "心配でなりません.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "なりました",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "id": "n3-37",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "The match was canceled on account of the rain.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "雨",
+        "role": "noun",
+        "reading": "あめ"
+      },
+      {
+        "id": "t2",
+        "surface": "の",
+        "role": "particle"
+      },
+      {
+        "id": "t3",
+        "surface": "ため",
+        "role": "conj"
+      },
+      {
+        "id": "t4",
+        "surface": "試合",
+        "role": "topic",
+        "reading": "しあい"
+      },
+      {
+        "id": "t5",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t6",
+        "surface": "中止",
+        "role": "noun",
+        "reading": "ちゅうし"
+      },
+      {
+        "id": "t7",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "t8",
+        "surface": "なりました",
+        "role": "verb"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    ],
+    "hint": "のため = due to. になる = it became that.",
+    "notes": "雨のため試合は中止になりました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "で",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "続けました",
+        "role": "verb",
+        "reading": "つづけました"
+      }
+    ]
+  },
+  {
+    "id": "n3-38",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "Just when I was about to give up, a reply came.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "諦めかけた",
+        "role": "verb",
+        "reading": "あきらめかけた"
+      },
+      {
+        "id": "t2",
+        "surface": "ところ",
+        "role": "noun"
+      },
+      {
+        "id": "t3",
+        "surface": "返事",
+        "role": "subject",
+        "reading": "へんじ"
+      },
+      {
+        "id": "t4",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "t5",
+        "surface": "来ました",
+        "role": "verb",
+        "reading": "きました"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    ],
+    "hint": "stem + かける = partway into the action. たところ = at that moment.",
+    "notes": "諦めかけたところ返事が来ました.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "に",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行きました",
+        "role": "verb",
+        "reading": "いきました"
+      }
+    ]
+  },
+  {
+    "id": "n3-39",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "Whether we go depends on the budget.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "行く",
+        "role": "verb",
+        "reading": "いく"
+      },
+      {
+        "id": "t2",
+        "surface": "かどうか",
+        "role": "conj"
+      },
+      {
+        "id": "t3",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "予算",
+        "role": "noun",
+        "reading": "よさん"
+      },
+      {
+        "id": "t5",
+        "surface": "次第",
+        "role": "noun",
+        "reading": "しだい"
+      },
+      {
+        "id": "t6",
+        "surface": "です",
+        "role": "copula"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "かどうか = whether. 次第 = it depends on.",
+    "notes": "行くかどうかは予算次第です.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "行かない",
+        "role": "verb",
+        "reading": "いかない"
+      }
+    ]
+  },
+  {
+    "id": "n3-40",
+    "jlpt": "N3",
+    "level": "advanced",
+    "english": "This book is written for children.",
+    "tiles": [
+      {
+        "id": "t1",
+        "surface": "この",
+        "role": "det"
+      },
+      {
+        "id": "t2",
+        "surface": "本",
+        "role": "topic",
+        "reading": "ほん"
+      },
+      {
+        "id": "t3",
+        "surface": "は",
+        "role": "particle"
+      },
+      {
+        "id": "t4",
+        "surface": "子供",
+        "role": "noun",
+        "reading": "こども"
+      },
+      {
+        "id": "t5",
+        "surface": "向けに",
+        "role": "particle",
+        "reading": "むけに"
+      },
+      {
+        "id": "t6",
+        "surface": "書かれています",
+        "role": "passive",
+        "reading": "かかれています"
+      }
+    ],
+    "answers": [
+      [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    ],
+    "hint": "Passive 書かれている describes how the book is. 向け = aimed at.",
+    "notes": "子供向けに書かれています.",
+    "distractors": [
+      {
+        "id": "d1",
+        "surface": "を",
+        "role": "particle"
+      },
+      {
+        "id": "d2",
+        "surface": "が",
+        "role": "particle"
+      },
+      {
+        "id": "d3",
+        "surface": "書きました",
+        "role": "verb",
+        "reading": "かきました"
       }
     ]
   }

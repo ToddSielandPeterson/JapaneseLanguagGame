@@ -222,6 +222,6 @@ class ExerciseCatalog(exercises: List<Exercise>) {
     fun forLevel(level: JlptLevel): List<Exercise> = exercises.filter { it.jlpt == level }
 
     companion object {
-        const val EXPECTED_COUNT: Int = 34
+        const val EXPECTED_COUNT: Int = 120
     }
 }

@@ -22,7 +22,7 @@ JapaneseLanguageGame
 │       ├── WordTile.kt                 chip, click, drag
 │       └── FuriganaText.kt             reading stacked above kanji
 ├── src/commonMain/composeResources/
-│   ├── files/exercises.json            the 34 items
+│   ├── files/exercises.json            the 120 items
 │   ├── files/OFL.txt
 │   └── font/                           OFL Noto Sans JP subset
 ├── src/jvmMain/kotlin/.../
@@ -65,7 +65,7 @@ The queue for a level is shuffled when the level loads and again when the learne
 
 `./gradlew test` (the JVM tests) covers:
 
-- 34 exercises, level counts, readings on kanji, distractors present
+- 120 exercises, 40 per playable level, readings on kanji, distractors present, answers reassemble
 - に / へ alternate, interchangeable duplicate を and に
 - streak bonus, reveal-as-miss, wrong-answer flash, N2 ignored, queue wrap
 - progress file round trip and corrupt-file fallback
