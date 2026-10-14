@@ -2,7 +2,7 @@
 
 ## Product goal
 
-Sentence Builder (文を作ろう) is a short desktop drill for Japanese **word order** and **particles**. The learner sees an English prompt and a shuffled set of Japanese tiles. They arrange the tiles into one grammatical sentence, then check it.
+Sentence Builder (文を作ろう) is a short drill for Japanese **word order** and **particles**. The learner sees an English prompt and a shuffled set of Japanese tiles. They arrange the tiles into one grammatical sentence, then check it. The same screen runs as a desktop window and as a web page.
 
 The audience is someone around JLPT N5–N3 who can read kana and is learning which particle attaches to which noun, and that the verb (or copula) comes last. It is a practice desk, not a textbook and not a dictionary.
 
@@ -26,14 +26,14 @@ A correct answer scores `1 + min(streak, 5)` and then increments the streak. A m
 
 ## What shipped
 
-- All **34** exercises from the HTML game: 14 N5, 11 N4, 9 N3, each with curated distractors
+- **120** exercises: 40 N5, 40 N4, 40 N3, including the original 34 from the HTML game, each with curated distractors
 - JLPT selector for N5, N4, and N3. N2 is shown and disabled
 - Furigana on by default, distractors off by default
 - Click or drag tiles into the sentence bar; click or drag them back
 - Check, Hint, Reveal, Clear, Next
 - Score, streak, and best streak
-- Settings and stats saved to a local JSON file
-- Offline. No account, no network calls at runtime
+- Settings and stats saved locally: a JSON file on the desktop, the same JSON in `localStorage` on the web
+- No account. The desktop app makes no network calls. The web app loads its own page, fonts, and exercises from the host that serves it
 
 ## Non-goals
 

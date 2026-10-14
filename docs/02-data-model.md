@@ -88,7 +88,7 @@ Written by `ProgressStore` as JSON:
 }
 ```
 
-Path: `$JAPANESE_LANGUAGE_GAME_HOME/progress.json` if that environment variable is set, otherwise `$XDG_CONFIG_HOME/JapaneseLanguageGame/progress.json`, otherwise `~/.config/JapaneseLanguageGame/progress.json`.
+Desktop path: `$JAPANESE_LANGUAGE_GAME_HOME/progress.json` if that environment variable is set, otherwise `$XDG_CONFIG_HOME/JapaneseLanguageGame/progress.json`, otherwise `~/.config/JapaneseLanguageGame/progress.json`. The web app stores the same document in `localStorage` at `JapaneseLanguageGame.progress`. Both paths use `ProgressCodec`, so a bad payload falls back the same way.
 
 The in-progress sentence, hint, and deck order are not saved. Relaunching starts a fresh shuffle at the saved level with the saved score. Unknown `jlpt` values (including `N2`) load as N5. Negative numbers load as 0.
 
@@ -98,6 +98,6 @@ The in-progress sentence, hint, and deck order are not saved. Relaunching starts
 
 - Distractors off: `exercise.tiles` only.
 - Distractors on: those tiles plus up to three distractors whose surface is not already used.
-- If every curated distractor collided with a real surface, up to two fallback particles are added from は が を に で へ と も の から まで, with ids `d_fb_<surface>`. The shipped 34 items all have usable curated distractors, so the fallback is a safety net.
+- If every curated distractor collided with a real surface, up to two fallback particles are added from は が を に で へ と も の から まで, with ids `d_fb_<surface>`. The shipped 120 items all have usable curated distractors, so the fallback is a safety net.
 
 The pool order is that list, shuffled, unless the shuffle equals an entire accepted answer (same ids, same length). In that case it retries up to eight times.

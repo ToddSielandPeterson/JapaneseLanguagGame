@@ -1,9 +1,11 @@
+import org.gradle.api.tasks.testing.Test
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "2.4.20"
-    id("org.jetbrains.kotlin.plugin.serialization") version "2.4.20"
-    id("org.jetbrains.kotlin.plugin.compose") version "2.4.20"
+    kotlin("multiplatform") version "2.4.20"
+    kotlin("plugin.serialization") version "2.4.20"
+    kotlin("plugin.compose") version "2.4.20"
     id("org.jetbrains.compose") version "1.12.1"
 }
 
@@ -15,20 +17,48 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    implementation(compose.desktop.currentOs)
-    implementation("org.jetbrains.compose.material3:material3:1.12.0-alpha03")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
-
-    testImplementation(kotlin("test-junit5"))
-}
-
 kotlin {
     jvmToolchain(21)
+
+    jvm()
+
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+        outputModuleName.set("japanese-language-game")
+        browser {
+            commonWebpackConfig {
+                outputFileName = "japanese-language-game.js"
+            }
+        }
+        binaries.executable()
+    }
+
+    sourceSets {
+        commonMain.dependencies {
+            implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material3)
+            implementation(compose.ui)
+            implementation(compose.components.resources)
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+        }
+        jvmMain.dependencies {
+            implementation(compose.desktop.currentOs)
+        }
+        jvmTest.dependencies {
+            implementation(kotlin("test-junit5"))
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+        }
+        wasmJsMain.dependencies {
+            implementation("org.jetbrains.kotlinx:kotlinx-browser:0.5.0")
+        }
+    }
 }
 
-tasks.test {
-    useJUnitPlatform()
+compose.resources {
+    publicResClass = true
+    packageOfResClass = "com.cognitivecreations.japaneselanguagegame.generated.resources"
 }
 
 compose.desktop {
@@ -42,4 +72,14 @@ compose.desktop {
             vendor = "Cognitive Creations"
         }
     }
+}
+
+tasks.withType<Test>().configureEach {
+    useJUnitPlatform()
+}
+
+tasks.register("test") {
+    group = "verification"
+    description = "Runs the JVM tests (game rules, catalog, and progress storage)."
+    dependsOn("jvmTest")
 }
