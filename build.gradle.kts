@@ -3,10 +3,10 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
-    kotlin("multiplatform") version "2.4.20"
-    kotlin("plugin.serialization") version "2.4.20"
-    kotlin("plugin.compose") version "2.4.20"
-    id("org.jetbrains.compose") version "1.12.1"
+    alias(libs.plugins.kotlin.multiplatform)
+    alias(libs.plugins.kotlin.plugin.serialization)
+    alias(libs.plugins.kotlin.plugin.compose)
+    alias(libs.plugins.compose.multiplatform)
 }
 
 group = "com.cognitivecreations.japaneselanguagegame"
@@ -40,18 +40,18 @@ kotlin {
             implementation(compose.material3)
             implementation(compose.ui)
             implementation(compose.components.resources)
-            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
-            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.kotlinx.coroutines.core)
         }
         jvmMain.dependencies {
             implementation(compose.desktop.currentOs)
         }
         jvmTest.dependencies {
-            implementation(kotlin("test-junit5"))
-            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+            implementation(libs.kotlin.test.junit5)
+            implementation(libs.kotlinx.coroutines.core)
         }
         wasmJsMain.dependencies {
-            implementation("org.jetbrains.kotlinx:kotlinx-browser:0.5.0")
+            implementation(libs.kotlinx.browser)
         }
     }
 }
