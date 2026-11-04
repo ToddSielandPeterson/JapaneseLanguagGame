@@ -5,6 +5,16 @@ frontend:
       commands:
         - |
           set -eu
+          # Install libatomic (required by Kotlin Wasm's bundled Node.js binary)
+          if command -v dnf >/dev/null 2>&1; then
+            sudo dnf install -y libatomic
+          elif command -v yum >/dev/null 2>&1; then
+            sudo yum install -y libatomic
+          elif command -v apt-get >/dev/null 2>&1; then
+            sudo apt-get update && sudo apt-get install -y libatomic1
+          fi
+
+          # Ensure Java 21 is available
           install_corretto() {
             if command -v dnf >/dev/null 2>&1; then
               sudo dnf install -y java-21-amazon-corretto-devel
